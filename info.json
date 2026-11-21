@@ -1,20 +1,21 @@
 {
-  "name": "[internal-mod-name]",
+  "name": "k2so-small-roboport-antifreeze",
   "version": "0.0.0",
-  "title": "[MOD DISPLAY NAME]",
-  "author": "[YOUR MODS.FACTORIO.COM USERNAME]",
-  "homepage": "[HOMEPAGE/REPO URL]",
-  "description": "[SHORT DESCRIPTION]",
+  "title": "K2SO Small Roboport Antifreeze",
+  "author": "MrSleeper",
+  "homepage": "https://github.com/TheRealSleeper/k2so-small-roboport-antifreeze",
+  "description": "Small Factorio mod for Krastorio 2 Spaced Out that prevents the added small roboports from freezing. Useful to work around bots getting stuck in an infinite recharging loop when trying to build at the edge of big roboport range.",
   "factorio_version": "2.1",
   "dependencies": [
-    "base"
+    "base",
+    "Krastorio2-spaced-out"
   ],
-  "expansion_required": false,
+  "expansion_required": true,
   "quality_required": false,
   "rail_bridges_required": false,
   "space_travel_required": false,
   "spoiling_required": false,
-  "freezing_required": false,
+  "freezing_required": true,
   "segmented_units_required": false,
   "expansion_shaders_required": false
 }
