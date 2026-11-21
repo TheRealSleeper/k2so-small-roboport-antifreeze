@@ -10,12 +10,12 @@
     "base",
     "Krastorio2-spaced-out"
   ],
-  "expansion_required": false,
+  "expansion_required": true,
   "quality_required": false,
   "rail_bridges_required": false,
   "space_travel_required": false,
   "spoiling_required": false,
-  "freezing_required": false,
+  "freezing_required": true,
   "segmented_units_required": false,
   "expansion_shaders_required": false
 }
